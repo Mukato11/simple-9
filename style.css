@@ -1,0 +1,33 @@
+.post-div {
+    width: 700px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: auto;
+    background-color: blueviolet;
+}
+
+.lay {
+    position:fixed;
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 200px;
+    background-color: antiquewhite;
+    display: none;
+}
+
+.layicon {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    color:blueviolet;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lay.active {
+    display: block;
+}
+
+
+

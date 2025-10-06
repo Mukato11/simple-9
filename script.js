@@ -57,6 +57,7 @@ closeIcon.addEventListener('click', function() {
   layPost.classList.remove('active');
 })
  mainPost();
+ 
 
 
 
